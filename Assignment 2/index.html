@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form">
+                <form action="" >
+                    <h1 class="Registration">Registration Form</h1>
+                    <table>
+                       <tr>
+                        <td>
+                            <label for="firstname"> 
+                                FirstName : 
+                            </label>
+                        </td>
+                        <td><input type="text" id="firstname" placeholder="Please Enter Your FirstName"   required /> 
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lastname"> 
+                                LastName : 
+                            </label>
+                        </td>
+                        <td><input type="text" id="lastname" placeholder="Please Enter Your LastName"   required /> 
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email"> 
+                                Email : 
+                            </label>
+                        </td>
+                        <td><input type="email" id="email" placeholder="Please Enter Your Email"  required /> 
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password"> 
+                                Password : 
+                            </label>
+                        </td>
+                        <td><input type="password" id="password " placeholder="Please Enter Your Password" pattern=".{8,}" required /> 
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date"> 
+                                DOB : 
+                            </label>
+                        </td>
+                        <td><input type="date" id="date" placeholder="Please Enter Your DOB"   required /> 
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="qualification" class="label"> 
+                                Qualification : 
+                            </label>
+                        </td>
+                       
+                        <td>
+                           
+                            <label for="Graduate"> 
+                                Graduate : 
+                            </label>
+                            <input type="radio" id="qualification" name="qualification" />
+                            <label for="PostGraduate"> 
+                                PostGraduate : 
+                            </label>
+                            <input type="radio" id="qualification"name="qualification"required /> 
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="languages" class="label"> 
+                                Languages : 
+                            </label>
+                        </td>
+                       
+                        <td>
+                            <label for="C++"> 
+                                C++ : 
+                            </label>
+                            <input type="radio" id="C++" name="C++"required />
+                            <label for="Python"> 
+                                Python : 
+                            </label>
+                            <input type="radio" id="python" name="C++" />
+                            <label for="C"> 
+                                C : 
+                            </label>
+                            <input type="radio" id="C"name="C++"required /> 
+                            <label for="Java"> 
+                                Java : 
+                            </label>
+                            <input type="radio" id="Java"name="C++"required /> 
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="days" class="label">Days :</label>
+                            </td>
+                            <td>
+                            <select name="days" id="days">
+                                <option value="Monday">Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Thursday">Thursday</option>
+                                <option value="Friday">Friday</option>
+                            </select>
+                        </td>
+                    </tr>
+                    </form>
+             </table>
+                     
+             <div class="button"><button class="btn" type="submit" onclick="myFunction()" >Submit</button></div>
+        </div>
+    </div>
+</body>
+</html>

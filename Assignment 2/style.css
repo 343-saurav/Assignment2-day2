@@ -1,0 +1,54 @@
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 3px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px;
+}
+label{
+    padding: 3px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px;
+    color: black;
+}
+.Registration{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.btn{
+    background-color: rgb(115, 115, 199);
+    color: white;
+    font-size: 23px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form {
+    box-shadow: 2px 2px 8px gray;
+}
+input:valid{
+    background-color: rgb(207, 163, 163);
+    border: none;
+}
+input::placeholder{
+    font-size: 15px;
+}
